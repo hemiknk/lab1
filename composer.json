@@ -1,0 +1,7 @@
+{
+    "name": "artem/lab1",
+    "description": "labs",
+    "require": {
+        "robmorgan/phinx": "^0.13.4"
+    }
+}
