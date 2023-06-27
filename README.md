@@ -14,8 +14,4 @@ According to instruction from https://www.jetbrains.com/teamcity/download/ lets 
 jetbrains/teamcity-server`
 
 * run teamcity agent
-`docker run -e SERVER_URL="localhost:8111" -v teamCity:/data/teamcity_agent/conf jetbrains/teamcity-agent`
-
 `docker run -e SERVER_URL="http://teamcity-server-instance:8111" --link teamcity-server-instance -v agent:/data/teamcity_agent/conf jetbrains/teamcity-agent`
-
-docker run -e SERVER_URL="http://teamcity-server-instance:8111" --link teamcity-server-instance -v agent:/data/teamcity_agent/conf jetbrains/teamcity-agent
